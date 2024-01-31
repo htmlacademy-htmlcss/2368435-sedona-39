@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 - Студент: [Паша Зыков](https://up.htmlacademy.ru/htmlcss/39/user/2368435).
-- Наставник: [Екатерина Комнатная] (https://htmlacademy.ru/profile/id215761)
+- Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761)
 
 ---
 

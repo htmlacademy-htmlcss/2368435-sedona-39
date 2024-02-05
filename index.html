@@ -1,12 +1,222 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
+  <head class="page-header">
+    <meta charset="utf-8" />
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+    <header>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#"> Главная </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Гостиницы</a>
+          </li>
+        </ul>
+        <ul>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#"> Поиск</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#"> Лайки</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#"> Хочу сюда!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="visually-hidden">
+        Седона — небольшой городок в Аризоне, заслуживающий большего!
+      </h1>
+      <div class="welcome">
+        <img
+          class="welcome-image"
+          src="#"
+          alt="Добро пожаловать в городок Седона."
+        />
+      </div>
+      <section class="dignity">
+        <div class="dignity-preface">
+          <h2 class="dignity-title">
+            Седона — небольшой городок в Аризоне,<br />
+            заслуживающий большего!
+          </h2>
+          <p class="dignity-text">
+            Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
+          </p>
+        </div>
+        <ul class="dignity-list">
+          <li class="dignity-item dignity-item-accent-text">
+            <div class="dignity-item">
+              <h3 class="dignity-item-title dignity-item-line-accent">
+                Настоящий городок
+              </h3>
+              <p class="dignity-item-description">
+                Седона — не аттракцион для туристов, там течёт своя жизнь
+              </p>
+            </div>
+            <div class="dignity-item-image">
+              <img class="dignity-image" src="#" alt="Вид на городок." />
+            </div>
+          </li>
+          <li class="dignity-item">
+            <h3 class="dignity-item-title dignity-item-line">
+              Небольшая площадь
+            </h3>
+            <p class="dignity-item-description">
+              Все достопримечательности находятся очень близко
+            </p>
+          </li>
+          <li class="dignity-item dignity-item-second-background">
+            <h3 class="dignity-item-title dignity-item-line">
+              Красивая дорога
+            </h3>
+            <p class="dignity-item-description">
+              Ехать в Седону из Лас-Вегаса совсем не скучно!
+            </p>
+          </li>
+          <li class="dignity-item">
+            <h3 class="dignity-item-title dignity-item-line">Мало туристов</h3>
+            <p class="dignity-item-description">
+              Большинство едет в Гранд Каньон и толпится там
+            </p>
+          </li>
+          <li class="dignity-item dignity-item-accent-text">
+            <div class="dignity-item">
+              <h3 class="dignity-item-title dignity-item-line-accent">
+                Там есть<br />
+                мост дьявола
+              </h3>
+              <p class="dignity-item-description">
+                Да, по нему можно пройти! Если вы осмелитесь, разумеется
+              </p>
+            </div>
+            <div>
+              <h3>Приезжайте в Седону отдохнуть в комфорте и уюте!</h3>
+              <p>Опытный персонал и качественное обслуживание!</p>
+            </div>
+            <div class="dignity-item-image dignity-item-image-bridge">
+              <img
+                class="dignity-image"
+                src="#"
+                alt="Мост дьявола."
+              />
+            </div>
+          </li>
+          <li class="dignity-item dignity-item-icons">
+            <h3 class="dignity-item-title dignity-item-home">Жильё</h3>
+            <p class="dignity-item-description">
+              Рекомендуем пожить в настоящем мотеле, всё как в кино!
+            </p>
+          </li>
+          <li
+            class="dignity-item dignity-item-icons dignity-item-third-background"
+          >
+            <h3 class="dignity-item-title dignity-item-burger">Еда</h3>
+            <p class="dignity-item-description">
+              Всегда заказывайте<br />
+              топовый фирменный бургер, вы не разочаруетесь!
+            </p>
+          </li>
+          <li class="dignity-item dignity-item-icons">
+            <h3 class="dignity-item-title dignity-item-present">Сувениры</h3>
+            <p class="dignity-item-description">
+              Не только китайского,<br />
+              но и настоящего местного производства!
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="selection">
+        <h2 class="selection-title">Заинтересовались?</h2>
+        <p class="selection-text">
+          Укажите предполагаемые даты поездки,<br />и мы покажем вам лучшие
+          предложения гостиниц в Седоне
+        </p>
+        <button class="button button-selection" type="button">
+          Поиск гостиницы в Седоне
+        </button>
+      </section>
+      <section class="newsletter">
+        <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
+        <p class="newsletter-text">
+          Только полезная информация и никакого спама, честное бойскаутское!
+        </p>
+        <form
+          class="newsletter-form"
+          action="https://echo.htmlacademy.ru/"
+          method="post"
+        >
+          <label class="visually-hidden" for="newsletter-email">Email.</label>
+          <input
+            class="field"
+            placeholder="Ваш e-mail"
+            type="email"
+            name="newsletter-email"
+            id="newsletter-email"
+            required
+          />
+          <button class="button newsletter-button" type="submit">
+            Подписаться
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <section class="footer-social">
+          <h2 class="visually-hidden">Социальные сети.</h2>
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a class="button-social" href="https://vk.com/htmlacademy">
+                </svg>
+                <span class="visually-hidden">ВКонтакте.</span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="button-social" href="https://t.me/htmlacademy">
+                <span class="visually-hidden">Telegram.</span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a
+                class="button-social"
+                href="https://www.youtube.com/user/htmlacademyru"
+              >
+                <svg
+                  class="footer-social-icons"
+                  aria-hidden="true"
+                  focusable="false"
+                  width="23"
+                  height="18"
+                  viewBox="0 0 23 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19 .4H3.4C1.6.4.3 2 .3 3.8v10c0 2 1.3 3.6 3.2 3.6h15.7c1.6 0 3.1-1.6 3.1-3.4V3.8C22.1 2 20.8.4 19 .4ZM8 12.9v-8l7.3 4-7.3 4Z"
+                  ></path>
+                </svg>
+                <span class="visually-hidden">Youtube.</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="footer-contacts">
+          <h2 class="visually-hidden">Телефон.</h2>
+          <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        </section>
+        <section class="htmlacademy">
+          <h2 class="visually-hidden">html academy.</h2>
+          <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+          </a>
+        </section>
+    </footer>
   </body>
 </html>

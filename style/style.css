@@ -961,6 +961,21 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+
+}
+
+.range__toggle:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.range__toggle:focus {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  outline: 3px solid #83b3d3;
+}
+
+.range__toggle:active {
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.4);
+  outline: 2px solid #83b3d3;
 }
 
 .toggle-min {
@@ -1285,22 +1300,6 @@ body {
   border-radius: 0 4px 4px 0;
 }
 
-input[type="email"]::-moz-placeholder {
-  opacity: 0.6;
-}
-
-input[type="email"]::-webkit-input-placeholder {
-  opacity: 0.6;
-}
-
-input[type="email"]:-ms-input-placeholder {
-  opacity: 0.6;
-}
-
-input[type="email"]::-ms-input-placeholder {
-  opacity: 0.6;
-}
-
 input[type="email"]::placeholder {
   opacity: 0.6;
 }
@@ -1369,7 +1368,6 @@ input[type="email"]::placeholder {
   background-color: #ffffff;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
-  width: 717px;
   box-sizing: border-box;
 }
 

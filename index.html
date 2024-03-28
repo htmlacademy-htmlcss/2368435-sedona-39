@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>Седона: Зыков П.С</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon.png">
+  <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
   <div class="container">
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <nav class="navigation">
         <a class="navigation__logo" href="#">
           <img class="navigation__image" src="images/logo/logo.svg" width="140" height="70" alt="Логотип г.Седона">
@@ -59,7 +59,7 @@
                 Избранное
               </span></a>
           </li>
-          <li class="navigation__item">
+          <li class="navigation__item" >
             <button class="navigation__button button button--brown" type="button">
               Хочу сюда!
             </button>
@@ -67,11 +67,11 @@
         </ul>
       </nav>
     </header>
-    <main class="main-container main-index">
+    <main class="main-container main-index" data-test="main">
       <h1 class="visually-hidden">
-        Гостиница "Седона"
+        Город Седона
       </h1>
-      <div class="main-container__image">
+      <div class="main-container__image" data-test="hero">
         <img class="main-index__image" src="./images/welcome.svg" width="458" height="352"
           alt="Добро пожаловать в гостиницу 'Седона'.">
       </div>
@@ -85,7 +85,7 @@
         <h2 class="visually-hidden">
           Преимущества
         </h2>
-        <ul class="advantages__list">
+        <ul class="advantages__list" data-test="advantages">
           <li class="advantages__item advantages__item--blue-1">
             <div class="advantages__info">
               <h3 class="advantages__title">
@@ -172,7 +172,7 @@
           </li>
         </ul>
       </section>
-      <section class="search">
+      <section class="search" data-test="search">
         <h2 class="search__title">
           Заинтересовались?
         </h2>
@@ -185,7 +185,7 @@
         </button>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer" data-test="footer">
       <section class="footer-subscription footer-subscription--index">
         <h2 class="footer-subscription__title">
           Подпишитесь на рассылку

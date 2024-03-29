@@ -183,10 +183,11 @@ body {
   padding-top: 51px;
   padding-bottom: 78px;
   background-color: rgba(131, 179, 211, 0.2);
-  background-image: url("../images/index-background.jpg");
+  background-image: url("../images/index-welcome-to-sedona.svg"), url("../images/index-background.jpg");
   margin: 0 auto;
+  background-position: center bottom, center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% auto, cover;
 }
 
 .main-index__title {
@@ -593,6 +594,35 @@ body {
 
 .breadcrumbs__icon {
   fill: #ffffff;
+}
+
+.text-why-come-to-sedona {
+  padding: 64px 0;
+}
+
+.welcome-to-sedona-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 505px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.welcome-to-sedona-subtitle {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  text-decoration: none;
+  text-transform: none;
+  padding: 0 100px;
+  margin: 0 auto;
 }
 
 .catalog-filter__group {
@@ -1697,3 +1727,5 @@ input::-webkit-inner-spin-button {
   content: "";
   background-image: url("../images/icon/triangle.svg");
 }
+
+

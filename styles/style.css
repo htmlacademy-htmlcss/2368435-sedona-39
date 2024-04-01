@@ -225,15 +225,18 @@ body {
 }
 
 .advantages__info {
-  padding: 103px 85px 121px;
+  padding: 113px 85px 112px;
+
 }
 
 .advantages__item--blue-1 .advantages__info {
   padding: 92px 85px 111px;
+  padding-top: 102px;
+  padding-bottom: 100px;
 }
 
 .advantages__item--blue-3 .advantages__info {
-  padding: 103px 84px 121px;
+  padding: 114px 84px 112px;
 }
 
 .advantages__title {
@@ -462,6 +465,7 @@ body {
   justify-content: center;
   max-width: 360px;
   height: 50px;
+  text-align: center;
 }
 
 
@@ -1280,7 +1284,7 @@ body {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  padding: 40px 70px 30px;
+  padding: 45px 70px 35px;
   align-items: center;
 }
 
